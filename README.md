@@ -6,7 +6,7 @@ This is my Readme for my first repository, I hope you enjoy READ(ing)ME :wink:
 
 This repository contains:
 
-It also contains R **cheetsheets** for the following:
+It also contains R **cheat sheets** for the following:
 
 * Base R
 * String manipulation with stringr
