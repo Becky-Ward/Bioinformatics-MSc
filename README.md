@@ -8,7 +8,7 @@ This repository contains:
 
 It also contains R **cheat sheets** for the following:
 
-* Base R
+* [Base R](https://github.com/Becky-Ward/Bioinformatics-MSc/commit/8a4739cdfd5fd241980d336b46c151a57f8fa6d8) 
 * String manipulation with stringr
 * RMarkdown
 * Data tidying with tidyr
