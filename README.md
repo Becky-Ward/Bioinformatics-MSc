@@ -8,7 +8,7 @@ This repository contains:
 
 [Bioinformatics-MSc.Rproj](https://github.com/Becky-Ward/Bioinformatics-MSc/blob/main/Bioinformatics-MSc.Rproj)
 
-[Here](https://github.com/Becky-Ward/Bioinformatics_MSc_data) is a link to the data we will be using on the course, it comes from 
+[Here](https://github.com/Becky-Ward/Bioinformatics_MSc_data) is a link to the data we will be using on the course, it comes from https://github.com/chrit88/Bioinformatics_data
 
 It also contains R **cheat sheets** for the following:
 
