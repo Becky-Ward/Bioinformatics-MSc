@@ -1,0 +1,42 @@
+---
+title: "Week 3 - Reading and Manipulating data RMarkdown"
+author: "BW"
+date: "18/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Pipelines using the tidyverse
+
+This operator `%>%` is called the `magrittr` operator.
+
+#for example `my_data %>% function_1() %>% function_2()`
+
+Very large datasets (such as those > 1Gb) may need to use data.table
+
+Data.table syntax varies from tidyverse.
+
+## Summarising data
+
+tibble are the universal data type that tidyverse uses
+
+## Basic data reshaping with pivot_
+
+##Write an Rmarkdown describing (and including code to do) the following:
+##load to_sort_pop_1.csv and to_sort_pop_1.csv
+##using tidyverse join both of these data together into a single tibble
+
+##to load in data use
+
+`pop_1_data <- vroom("Data/Workshop 3/to_sort_pop_1.csv")`
+`pop_2_data <- vroom("Data/Workshop 3/to_sort_pop_2.csv")`
+
+##really unsure if this is the correct join, but I used;
+
+`combined_pop1_2 <- inner_join(pop_1_data,pop_2_data, by = "species")`
+
+##This gives a tibble 9 x 56 which I am guessing is not correct, I was unsure on next steps to take, would it be possible to have some help on this?
+
