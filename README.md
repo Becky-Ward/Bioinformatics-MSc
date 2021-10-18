@@ -12,7 +12,7 @@ It also contains R **cheat sheets** for the following:
 * String manipulation with stringr
 * RMarkdown
 * Data tidying with tidyr
-* Data visualization with ggplot2
+* [Data visualization with ggplot2](https://github.com/Becky-Ward/Bioinformatics-MSc/commit/93d34780698103ae94add7ce9dd74287dee246ba)
 
 ## Author
 
