@@ -1,0 +1,45 @@
+---
+title: "RMarkdown_week 2 homework"
+author: "BW"
+date: "17/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Week 2 - Useful tips for using R and RMarkdown
+
+To find help on a function use the ? followed by the function for example: `?mean `
+
+Using `str()` gives a summary of the objects structure.
+
+Use `toupper()` to convert a string to uppercase
+
+Use `tolower()` to convert a string to lowercase
+
+To select elements from a vector use []
+
+For example:
+
+`x[4]` The fourth element.
+
+`x[-4]` All but the fourth.
+
+`x[2:4]` Elements two to four.
+
+`x[-(2:4)]` All elements except two to four.
+
+`x[c(1, 5)]` Elements one and five.
+
+## Tips for RMarkdown
+
+`## Can be used to create a header`
+
+# Header
+
+and
+
+## Header
+
