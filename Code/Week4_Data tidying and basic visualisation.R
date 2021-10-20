@@ -27,3 +27,7 @@ pop_data <- wb_data(indicator = "SP.POP.TOTL",
 
 ##convert it to a tibble
 pop_data <- as_tibble(pop_data)
+pop_data
+
+##the maximum value of the years in the date column
+max(pop_data$date)
